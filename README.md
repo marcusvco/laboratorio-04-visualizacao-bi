@@ -61,7 +61,7 @@ O dataset possui o seguinte esquema:
 
 ---
 
-### **RQ2:** Há impacto na popularidade (número de estrelas) dos repositórios após a substituição de bibliotecas externas?
+### **RQ2:** Há relação no número de estrelas com a vulnerabilidade presente nos repositórios mais famosos?
 
 📈 **Hipótese:**  
 - A popularidade pode se tornar maior devido ao menor número possível de vulnerabilidades e código mais estável.
@@ -70,9 +70,8 @@ O dataset possui o seguinte esquema:
 
 ### **RQ3:** Existe correlação entre o número de dependências externas e a quantidade de vulnerabilidades (CVEs)?
 
-📉 **Visualização sugerida:**  
-- Gráfico de dispersão entre *dependencies* e *CVEs* com linha de regressão.  
-- Tabela com coeficiente de correlação (Pearson ou Spearman).
+📈 **Hipótese:**  
+- A correlação entre essas duas variáveis é diretamente proporcional, ou seja o número de dependências maior aumenta o número de vulnerabilidades.
 
 ---
 
