@@ -61,10 +61,10 @@ O dataset possui o seguinte esquema:
 
 ---
 
-### **RQ2:** Há relação no número de estrelas com a vulnerabilidade presente nos repositórios mais famosos?
+### **RQ2:** As dependências e dependências de desenvolvimento diminuem significativamente com a substituição de bibliotecas externas?
 
 📈 **Hipótese:**  
-- A popularidade pode se tornar maior devido ao menor número possível de vulnerabilidades e código mais estável.
+- É esperado que diminuam de forma significativa, mas não totalmente pois ainda existiram outras bibliotecas necessárias no sistemas abordados.
 
 ---
 
@@ -81,7 +81,7 @@ O dashboard final será dividido em três seções principais:
 
 1. **Caracterização do Dataset**  
    - Total de repositórios analisados  
-   - Distribuição de estrelas (antes e depois)  
+   - Distribuição de estrelas  
    - Distribuição de dependências  
    - Histograma de vulnerabilidades e CVEs  
 
@@ -104,8 +104,7 @@ O dashboard final será dividido em três seções principais:
 
 ## 💬 Discussão
 
-Os resultados obtidos deverão evidenciar como a adoção de funções nativas do JavaScript pode contribuir para a **melhoria da segurança** e **simplificação da manutenção** de projetos open source.  
-Além disso, será discutido se essas mudanças afetam de forma perceptível a **popularidade** dos repositórios na comunidade.
+Os dados validam a tese de que a dependência excessiva de bibliotecas externas ("npm install...") estava inflando desnecessariamente a complexidade e a superfície de ataque dos projetos.
 
 ---
 
