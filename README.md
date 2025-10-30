@@ -94,11 +94,10 @@ O dashboard final será dividido em três seções principais:
 
 ---
 
-## 📈 Resultados Esperados
+## 📈 Resultados
 
-- Redução significativa nas métricas de **vulnerabilidades** e **dependências externas**.  
-- Pequena ou nenhuma perda em **popularidade** (estrelas).  
-- Correlação negativa entre número de dependências e segurança (menos dependências → menos CVEs).  
+📈 ![Antes](./img/Antes.png)  
+📈 ![Depois](./img/Depois.png)  
 
 ---
 
