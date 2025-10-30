@@ -83,7 +83,7 @@ O dashboard final será dividido em três seções principais:
    - Total de repositórios analisados  
    - Distribuição de estrelas  
    - Distribuição de dependências  
-   - Histograma de vulnerabilidades e CVEs  
+   - Heatmap de CVEs e dependências  
 
 2. **Comparação Antes x Depois**  
    - Gráficos lado a lado comparando métricas pré e pós-substituição.  
